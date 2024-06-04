@@ -13,6 +13,7 @@ const Homepage = () => {
         const response = await getCountry();
 
         setCountryList(response);
+        console.log(countryList)
       } catch (error) {
         toast((error as Error).message.toString());
       }
