@@ -1,3 +1,4 @@
+import CustomCountryCard from "@/components/custom-country-card";
 import { getCountry } from "@/utils/api";
 import { Country } from "@/utils/api-types";
 import React, { useEffect, useState } from "react";
@@ -22,12 +23,11 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-3">
         {countryList.map((country) => (
-          <div >
-            <img src={country.flags.png} alt={country.flags.alt} />
-            <p>{country.name.common}</p>
-          </div>
+          <CustomCountryCard 
+          country={country}
+          />
         ))}
       </div>
     </div>
