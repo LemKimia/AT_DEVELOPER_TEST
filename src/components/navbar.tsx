@@ -1,11 +1,11 @@
 const Navbar = () => {
   return (
-    <nav className="grid grid-cols-2 sticky top-0 z-50 h-10 w-full border-gray-200 bg-white ">
+    <nav className="grid grid-cols-2 sticky top-0 z-50 h-20 w-full border-gray-200 bg-white shadow-md">
       <div className="justify-self-center self-center">
-        <p>CountryDex</p>
+        <p className="text-3xl">CountryDex</p>
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -17,8 +17,16 @@ const CustomCountryCard = (props: Props) => {
             <p>{country.name.common}</p>
           </div>
           <div>
-            <p>Capital : {country.capital}</p>
-            <p>Continents : {country.region}</p>
+            <div className="grid grid-cols-3 gap-1">
+              <p>Capital</p>
+              <p className="justify-self-center">:</p>
+              <p>{country.capital}</p>
+            </div>
+            <div className="grid grid-cols-3 gap-1">
+              <p>Continents</p>
+              <p className="justify-self-center">:</p>
+              <p>{country.region}</p>
+            </div>
           </div>
         </div>
       </div>
