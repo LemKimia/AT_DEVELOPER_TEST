@@ -3,23 +3,27 @@ export interface Country {
     common: string;
     official: string;
   };
-  currencies: Currencies;
+  currencies: { [key: string]: Currency };
   capital: string;
-  languages: string;
+  languages: Language;
   maps: {
     googleMaps: string;
   };
   continents: string;
   region: string;
+  subregion: string;
   flags: {
     png: string;
     alt: string;
   };
+  population: number;
 }
 
-export interface Currencies {
-    AOA: {
-        name: string
-        symbol: string
-    }
+export interface Currency {
+  name: string;
+  symbol: string;
+}
+
+export interface Language {
+  [key: string]: string;
 }
