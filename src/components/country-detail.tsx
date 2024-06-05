@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { Country } from "@/utils/api-types";
 
 interface Props {

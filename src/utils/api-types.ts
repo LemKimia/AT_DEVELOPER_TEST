@@ -3,12 +3,7 @@ export interface Country {
     common: string;
     official: string;
   };
-  currencies: { [key: string]: Currency };
   capital: string;
-  languages: Language;
-  maps: {
-    googleMaps: string;
-  };
   continents: string;
   region: string;
   subregion: string;
@@ -17,13 +12,4 @@ export interface Country {
     alt: string;
   };
   population: number;
-}
-
-export interface Currency {
-  name: string;
-  symbol: string;
-}
-
-export interface Language {
-  [key: string]: string;
 }

@@ -1,5 +1,6 @@
 import axios from "axios"
-import { Country } from "./api-types";
+
+import { Country } from "@/utils/api-types";
 
 export const getCountry = async () => {
     try {

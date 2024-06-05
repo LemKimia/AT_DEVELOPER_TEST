@@ -1,6 +1,6 @@
-import { Country } from "@/utils/api-types";
-import CountryDetail from "./country-detail";
+import CountryDetail from "@/components/country-detail";
 
+import { Country } from "@/utils/api-types";
 interface Props {
   country: Country;
 }
