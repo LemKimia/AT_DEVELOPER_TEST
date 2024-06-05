@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Country Information App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a front-end web application showcasing basic information about countries.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Displays a country's name, flag, continent, region, capital, and optional details (e.g., currency, population).
+Provides a user-friendly interface with clear headings and sections.
+Technology Stack:
 
-## Expanding the ESLint configuration
+HTML
+CSS
+JavaScript (Optional: Framework like React or Vue.js, if used)
+Running the Project:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone this repository.
+Open the index.html file in a web browser.
+Note:
 
-- Configure the top-level `parserOptions` property like this:
+This project is intended as a demonstration of front-end development skills.
+The data source for country information can be replaced with a real API integration for a more robust application.
+Further Development:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Implement data fetching from a country information API.
+Add interactive features like search functionality or filtering by region.
+Enhance the user interface with animations or responsive design.
+I hope this README provides a clear overview of my project. Feel free to explore the code and provide any feedback.
