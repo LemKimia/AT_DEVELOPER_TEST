@@ -7,8 +7,9 @@ interface Props {
 
 const Layout = (props: Props) => {
   const { children } = props;
+
   return (
-    <div className="">
+    <div className="font-display">
       <Navbar />
       <div className="h-full w-full">{children}</div>
     </div>
