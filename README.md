@@ -1,6 +1,7 @@
 # CountryDex App
+![image](https://github.com/LemKimia/AT_DEVELOPER_TEST/assets/155447567/223455f3-adec-475d-ae5c-7aea58fc3995)
 
-This is a front-end web application showcasing basic information about countries.
+This is a simple front-end web application showcasing basic geographical and flag information about countries.
 
 # Features:
 
