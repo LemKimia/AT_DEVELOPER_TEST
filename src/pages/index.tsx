@@ -26,7 +26,7 @@ const Homepage = () => {
   return (
     <Layout>
       <div>
-        <div className="grid grid-cols-2 gap-3 mx-1">
+        <div className="grid grid-cols-2 gap-3 m-2 md:grid-cols-3 xl:gap-20 xl:grid-cols-5">
           {countryList.map((country) => (
             <CustomCountryCard country={country} />
           ))}
