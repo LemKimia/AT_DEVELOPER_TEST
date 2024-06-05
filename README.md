@@ -5,7 +5,7 @@ This is a simple front-end web application showcasing basic geographical and fla
 
 # Features:
 
-- Displays a country's name, flag, continent, region, capital, and optional details (e.g., currency, population).
+- Displays a country's name, flag, continent, region, capital, and minor extra details 
 - Provides a user-friendly interface with clear headings and sections.
 
 # Technology Stack:
